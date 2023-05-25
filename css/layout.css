@@ -1,7 +1,14 @@
 /* FORSIDE */
 
-
-
+/* Om os */
+.grid_shakes_1 {
+  border: 1px solid black;
+  padding: 65px;
+  width: 450px;
+  top: 10%;
+  margin: 39px;
+  border-radius: 10px;
+}
 
 /* KONCEPT SIDE */
 
