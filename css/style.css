@@ -1,7 +1,15 @@
-/* om os */
+body{
+  background-color: #FAF6F2;
+}
+
+h1{
+  text-align: center;
+  color: #293242;;
+}
 
 header {
   background-color: #293242;
+  text-align: center;
 }
 .menubar {
   list-style-type: none;
