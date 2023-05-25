@@ -10,86 +10,99 @@
   border-radius: 10px;
   background-color: #919ec3;
 }
+
 body {
   background-color: #f7f7f7;
 }
+.footer_shakes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  top: 10%;
+  margin: 5%;
+  padding: 0%;
+  left: 10%;
+}
+.footer_shakes_4 {
+  line-height: 150%;
+}
 
+a {
+  text-decoration: none;
+  line-height: 10%;
+}
+ul {
+  top: 10%;
+  list-style-type: none;
+}
 /* KONCEPT SIDE */
 
 .boxgrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-content: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    gap: 2em;
-    
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  gap: 2em;
 }
 
 .boxgrid p {
-    color: #293242;
+  color: #293242;
 }
 .boxgrid h2 {
-    color: #293242;
+  color: #293242;
 }
 
 .box1 {
-
-padding: 10px;
-width: 400px;
-grid-column: 1/2;
-grid-row: 1/2;
-background-color: #A1AEC6;
-border-radius: 30px;
-line-height: 1,5;
+  padding: 10px;
+  width: 400px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: #a1aec6;
+  border-radius: 30px;
+  line-height: 1, 5;
 }
 
 .box2 {
-    
-    padding: 10px;
-    width: 400px;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    background-color: #A1AEC6;
-    border-radius: 30px;
-    line-height: 1,5;
-    }
+  padding: 10px;
+  width: 400px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: #a1aec6;
+  border-radius: 30px;
+  line-height: 1, 5;
+}
 
 .box3 {
-    padding: 10px;
-    grid-column: 1/3;
-    grid-row: 2/3; 
-    background-color: #A1AEC6; 
-    text-align: center;
-    border-radius: 30px;
-    
+  padding: 10px;
+  grid-column: 1/3;
+  grid-row: 2/3;
+  background-color: #a1aec6;
+  text-align: center;
+  border-radius: 30px;
 }
 
 .box4 {
-    
-    padding: 10px;
-    width: 400px;
-    grid-column: 1/2;
-    grid-row: 3/4;
-    background-color: #A1AEC6;
-    border-radius: 30px;
+  padding: 10px;
+  width: 400px;
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background-color: #a1aec6;
+  border-radius: 30px;
 }
 
 .box5 {
-    
-    padding: 10px;
-    width: 400px;
-    grid-column: 2/3;
-    grid-row: 3/4;
-    background-color: #A1AEC6;
-    border-radius: 30px;
+  padding: 10px;
+  width: 400px;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background-color: #a1aec6;
+  border-radius: 30px;
 }
 
 /* PRISER */
 
-
 /* GODE RÅD */
-
 
 /* OM OS */
