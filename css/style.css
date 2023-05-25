@@ -1,0 +1,38 @@
+body{
+    background-color: #FAF6F2;
+}
+header{
+    padding: 10px;
+    text-align: center;
+    background: #293242;
+}
+.logo img{
+    width: 100px;
+}
+.book img{
+    width: 140px;
+    justify-content: right;
+    margin-top: 16%;
+}
+.min_side img{
+    width: 140px;
+    justify-content: right;
+    margin-top: 18%;
+}
+@media (min-width: 900px){
+a{
+    font-family: ;
+    font-size: 24px;
+    text-decoration: none;
+}
+      
+a:link {
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover {
+    color: #d1bea5;
+}
+}

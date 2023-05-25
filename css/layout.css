@@ -1,0 +1,36 @@
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+    gap: 2em;
+}
+@media (min-width: 900px){
+header {
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    padding: 0 12em 0 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    margin-top: 4.5%;
+    gap: 5em;
+    padding: 0 7em 0 0;
+}
+.book img {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 0 1em 0 0;
+}
+}
