@@ -1,10 +1,13 @@
-body{
-  background-color: #FAF6F2;
+main {
+  background-color: #faf6f2;
 }
 
-h1{
+footer {
+  background-color: #ffffff;
+}
+h1 {
   text-align: center;
-  color: #293242;;
+  color: #293242;
 }
 
 header {
