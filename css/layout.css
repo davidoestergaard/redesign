@@ -6,6 +6,10 @@
   top: 10%;
   margin: 39px;
   border-radius: 10px;
+  background-color: #919ec3;
+}
+body {
+  background-color: #f7f7f7;
 }
 
 /* KONCEPT SIDE */
