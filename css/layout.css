@@ -14,14 +14,11 @@
 .footer_shakes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   top: 10%;
   margin: 5%;
   padding: 0%;
   left: 10%;
-}
-.footer_shakes_4 {
-  line-height: 150%;
 }
 
 /* KONCEPT SIDE */
