@@ -2,13 +2,21 @@
 
 /* Om os */
 .grid_shakes_1 {
-  border: 1px solid black;
+  border: 0px solid black;
   padding: 65px;
   width: 450px;
   top: 10%;
   margin: 39px;
   border-radius: 10px;
-  background-color: #919ec3;
+  background-color: #a1aec6;
+  line-height: 1, 5;
+  border-radius: 30px;
+}
+.grid_shakes_1 h3 {
+  color: #293242;
+}
+.grid_shakes_1 p {
+  color: #293242;
 }
 
 .footer_shakes {
@@ -27,13 +35,13 @@
 /* KONCEPT SIDE */
 
 .boxgrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-content: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    gap: 3em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  gap: 3em;
 }
 
 .boxgrid p {
@@ -44,24 +52,13 @@
 }
 
 .box1 {
-
-padding: 10px;
-grid-column: 1/2;
-grid-row: 1/2;
-background-color: #A1AEC6;
-border-radius: 30px;
-line-height: 1,5;
+  padding: 10px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: #a1aec6;
+  border-radius: 30px;
+  line-height: 1, 5;
 }
-
-.box2 {
-    
-    padding: 10px;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    background-color: #A1AEC6;
-    border-radius: 30px;
-    line-height: 1,5;
-    }
 
 .box2 {
   padding: 10px;
@@ -72,6 +69,14 @@ line-height: 1,5;
   line-height: 1, 5;
 }
 
+.box2 {
+  padding: 10px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: #a1aec6;
+  border-radius: 30px;
+  line-height: 1, 5;
+}
 
 .box3 {
   padding: 10px;
@@ -83,22 +88,11 @@ line-height: 1,5;
 }
 
 .box4 {
-
-    padding: 10px;
-    grid-column: 1/2;
-    grid-row: 3/4;
-    background-color: #A1AEC6;
-    border-radius: 30px;
-}
-
-.box5 {
-    
-    padding: 10px;
-    grid-column: 2/3;
-    grid-row: 3/4;
-    background-color: #A1AEC6;
-    border-radius: 30px;
-
+  padding: 10px;
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background-color: #a1aec6;
+  border-radius: 30px;
 }
 
 .box5 {
@@ -107,36 +101,43 @@ line-height: 1,5;
   grid-row: 3/4;
   background-color: #a1aec6;
   border-radius: 30px;
+}
 
+.box5 {
+  padding: 10px;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background-color: #a1aec6;
+  border-radius: 30px;
 }
 
 /* PRISER */
-main{
-    max-width: 1200px;
+main {
+  max-width: 1200px;
 }
-.priser_grid_1-1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr;
-    gap: 2em;
+.priser_grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr;
+  gap: 2em;
 }
-.priser_grid_1-1-1-1{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 2fr;
-    justify-content: center;
-    margin-left: 7%;
+.priser_grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr;
+  justify-content: center;
+  margin-left: 7%;
 }
-@media (min-width: 900px){
-header {
+@media (min-width: 900px) {
+  header {
     display: flex;
-}
-.logo{
+  }
+  .logo {
     display: flex;
     justify-content: left;
     padding: 0 12em 0 0;
-}
-nav ul {
+  }
+  nav ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
@@ -144,14 +145,14 @@ nav ul {
     margin-top: 4.5%;
     gap: 5em;
     padding: 0 7em 0 0;
-}
-.book img {
+  }
+  .book img {
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 1em;
     padding: 0 1em 0 0;
-}
+  }
 }
 
 /* GODE RÅD */
