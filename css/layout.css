@@ -11,13 +11,10 @@
   background-color: #919ec3;
 }
 
-body {
-  background-color: #f7f7f7;
-}
 .footer_shakes {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   top: 10%;
   margin: 5%;
   padding: 0%;
