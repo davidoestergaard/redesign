@@ -1,9 +1,6 @@
-main{
+main {
     max-width: 1200px;
-}
-header {
-    display: flex;
-}
+}  
 .logo {
     display: flex;
     justify-content: left;
@@ -29,8 +26,9 @@ nav ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  top: 10%;
   margin: 2%;
-  margin-top: 0;
-  margin-left: 8%;
+  justify-content: center;
+  margin-left: 14%;
+  margin-top: 0 ;
+  gap: 2em;
 }
