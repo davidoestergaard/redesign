@@ -131,13 +131,8 @@ line-height: 1,5;
   margin-left: 7%;
 }
 
-@media (min-width: 900px){
-header {
-    display: flex;
-}
 
-.logo{
-@media (min-width: 900px) 
+
   header {
     display: flex;
   }
