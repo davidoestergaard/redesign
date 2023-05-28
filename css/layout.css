@@ -14,7 +14,7 @@
 .footer_shakes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   top: 10%;
   margin: 5%;
   padding: 0%;
@@ -107,13 +107,9 @@ line-height: 1,5;
   grid-row: 3/4;
   background-color: #a1aec6;
   border-radius: 30px;
-
 }
 
-/* PRISER */
-main{
-    max-width: 1200px;
-}
+
 .priser_grid_1-1{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -127,10 +123,12 @@ main{
     justify-content: center;
     margin-left: 7%;
 }
+
 @media (min-width: 900px){
 header {
     display: flex;
 }
+
 .logo{
     display: flex;
     justify-content: left;
@@ -152,8 +150,3 @@ nav ul {
     gap: 1em;
     padding: 0 1em 0 0;
 }
-}
-
-/* GODE RÅD */
-
-/* OM OS */
