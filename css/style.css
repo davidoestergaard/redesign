@@ -86,19 +86,4 @@ p{
 .footer_shakes p{
     font-size: 16px;
 }
-@media (max-width: 900px) {
-  a {
-    font-size: 24px;
-    text-decoration: none;
-  }
 
-  a:link {
-    color: white;
-  }
-  a:visited {
-    color: white;
-  }
-  a:hover {
-    color: #d1bea5;
-  }
-}
