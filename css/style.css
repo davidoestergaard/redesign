@@ -1,39 +1,90 @@
 body {
   background-color: #faf6f2;
 }
+
 header {
-  padding: 10px;
-  text-align: center;
-  background: #293242;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    background: #293242;
 }
-.logo img {
-  width: 100px;
+.logo {
+      display: flex;
+      justify-content: left;
+      padding: 0 12em 0 0;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4.5%;
+    gap: 5em;
+    padding: 0 7em 0 0;
 }
 .book img {
-  width: 140px;
-  justify-content: right;
-  margin-top: 16%;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      padding: 0 1em 0 0;
 }
-.min_side img {
-  width: 140px;
-  justify-content: right;
-  margin-top: 18%;
+.logo img {
+    width: 100px;
 }
-@media (min-width: 900px) {
-  a {
+.book img {
+    width: 140px;
+    margin-top: 16%;
+}
+  .min_side img {
+    width: 140px;
+    margin-top: 18%;
+}
+a{
+    font-family: "bryant-web-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
     font-size: 24px;
     text-decoration: none;
-  }
-
-  a:link {
+}
+a:link {
     color: white;
-  }
-  a:visited {
+}
+a:visited {
     color: white;
-  }
-  a:hover {
+}
+a:hover {
     color: #d1bea5;
-  }
+}
+
+h1{
+    font-family: "miller-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    font-family: "miller-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 26px;
+}
+h3{
+    font-family: "miller-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+p{
+    font-family: "bryant-web-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 18px;
+}
+.footer_shakes p{
+    font-size: 16px;
 }
 @media (max-width: 900px) {
   a {
