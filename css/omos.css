@@ -24,10 +24,7 @@
     max-width: 100%;
   } */
 
-  .img {
-    transform: scale(0.5);
-  }
-  img {
+  .grid_shakes_2 img {
     max-width: 450px;
     max-height: 450px;
     border-radius: 30px;
@@ -91,7 +88,7 @@
   /* .img {
     transform: scale(0.5);
   } */
-  img {
+  .grid_shakes_2 img {
     max-width: 450px;
     max-height: 450px;
     border-radius: 30px;
