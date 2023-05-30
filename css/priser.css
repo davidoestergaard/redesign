@@ -19,7 +19,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 6em;
+    gap: 1em;
 }
 .under{
     font-family: "bryant-web-compressed", sans-serif;

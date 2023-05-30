@@ -10,15 +10,15 @@ header {
     justify-content: space-between;
     background-color: #293242;
     padding: 1%;
-  }
-  nav ul {
+}
+nav ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
     gap: 2em;
     margin-left: -45%;
     margin-top: 4%;
-  }
+}
 
 .logo img {
     width: 25%;
@@ -60,6 +60,7 @@ h1{
     font-style: normal;
     text-align: center;
     font-size: 40px;
+    color: #293242;
 }
 h2{
     font-family: "miller-display", serif;
@@ -93,6 +94,25 @@ p{
     margin-top: 0 ;
     gap: 2em;
 }
+
+/* FORSIDE */
+.forside_img{
+    width: 90%;
+    height: auto;
+    margin-left: 4%;
+    margin-right: auto;
+}
+.forside_p{
+    font-family: "bryant-web-compressed", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    text-align: center;
+    font-size: 18px;
+}
+iframe{
+    
+}
+
 @media (max-width: 1150px) {
 header {
     display: flex;
