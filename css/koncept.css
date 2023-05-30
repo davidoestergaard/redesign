@@ -15,6 +15,7 @@
 
   .boxgrid p {
     color: #293242;
+    text-align: center;
   }
   .boxgrid h2 {
     color: #293242;
@@ -66,6 +67,9 @@
 
 @media (max-width: 900px) {
   h1 {
+    text-align: center;
+  }
+  .boxgrid p {
     text-align: center;
   }
   .box1 {
