@@ -8,15 +8,6 @@
   background-color: #919ec3;
 }
 
-.footer_tine {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  top: 10%;
-  margin: 5%;
-  padding: 0%;
-  left: 10%;
-}
 
 .boxgrid {
   display: grid;
@@ -63,10 +54,4 @@ line-height: 1,5;
   background-color: #A1AEC6;
   border-radius: 30px;
 
-}
-
-.tine_header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-evenly;
 }
