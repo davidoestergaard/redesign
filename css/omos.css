@@ -1,29 +1,4 @@
-h1 {
-  text-align: center;
-}
-header {
-  display: flex;
-}
-.logo {
-  display: flex;
-  justify-content: left;
-  padding: 10px;
-}
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  justify-content: center;
-  margin-top: 4.5%;
-  gap: 5em;
-}
-.book img {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 1em;
-  padding: 10px;
-}
+
 @media (max-width: 900px) {
   h1 {
     text-align: center;
