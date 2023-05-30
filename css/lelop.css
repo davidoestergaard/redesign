@@ -109,10 +109,6 @@ p{
     text-align: center;
     font-size: 18px;
 }
-iframe{
-    
-}
-
 @media (max-width: 1150px) {
 header {
     display: flex;
