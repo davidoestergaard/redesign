@@ -1,3 +1,4 @@
+@media (min-width: 900px) {
 .grid_tine_1 {
   border: 1px solid black;
   padding: 65px;
@@ -7,52 +8,46 @@
   border-radius: 10px;
   background-color: #919ec3;
 }
-
-
-.boxgrid {
+.boxgrid_1, .boxgrid_2, .boxgrid_3  {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   justify-content: center;
   padding-left: 100px;
   padding-right: 100px;
   gap: 3em;
 }
 
-.box1 {
-
-padding: 10px;
-grid-column: 1/2;
-grid-row: 1/2;
-background-color: #A1AEC6;
-border-radius: 30px;
-line-height: 1,5;
+.boxgrid_1, .boxgrid_3 p{
+  text-align: center;
 }
-
-.box2 {
-padding: 10px;
-grid-column: 2/3;
-grid-row: 1/2;
-background-color: #a1aec6;
-border-radius: 30px;
-line-height: 1,5;
-}
-
-.box4 {
+.box1, .box2, .box6, .box5{
   padding: 10px;
-  grid-column: 1/2;
-  grid-row: 2/3;
   background-color: #A1AEC6;
   border-radius: 30px;
+  line-height: 1,5;
 }
-
-.box5 {
-  
-  padding: 10px;
-  grid-column: 2/3;
-  grid-row: 2/3;
-  background-color: #A1AEC6;
+.boxgrid_2 img{
+  width: 100%;
+  height: auto;
   border-radius: 30px;
-
 }
-
+}
+@media (max-width: 900px) {
+  .box1, .box2, .box5, .box6 {
+    padding: 10px;
+    margin: 20px;
+    background-color: #a1aec6;
+    border-radius: 30px;
+    line-height: 1, 5;
+  }
+  .boxgrid_2 img{
+    width: 60%;
+    height: auto;
+    margin-left: 18%;
+    border-radius: 30px;
+  }
+  .boxgrid_1, .boxgrid_3 p{
+    text-align: center;
+  }
+}
