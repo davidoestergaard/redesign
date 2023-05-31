@@ -122,7 +122,7 @@ nav ul {
     justify-content: space-evenly;
     gap: 1em;
     margin-left: -4%;
-    margin-top: 5%;
+    margin-top: 7%;
 }
 .logo img {
     width: 70px;
@@ -139,7 +139,7 @@ a{
     font-family: "bryant-web-compressed", sans-serif;
     font-weight: 400;
     font-style: normal; 
-    font-size: 16px;
+    font-size: 10px;
     text-decoration: none;
 }
 a:link {
